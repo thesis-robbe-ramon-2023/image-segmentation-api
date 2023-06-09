@@ -29,6 +29,7 @@ app.add_middleware(
 
 parameter_cache = {}
 
+
 async def _segment(websocket: WebSocket, img_name: str):
     img = cv2.imread(f"img/{img_name}")
 
